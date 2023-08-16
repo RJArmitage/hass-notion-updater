@@ -12,5 +12,11 @@ init: false
 startup: application
 map:
   - share:rw
-options: {}
-schema: {}
+
+options:
+  access_token: access_token
+  journal_db_id: journal_db_id
+
+schema:
+  access_token: str
+  journal_db_id: str
