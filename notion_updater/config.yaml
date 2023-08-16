@@ -1,5 +1,6 @@
 name: Updater for Notion that can be hosted within Home Assistant OS
-version: '0.003'
+description: Updater for Notion that can be hosted within Home Assistant OS
+version: '1.0.0'
 arch:
   - armhf
   - armv7
@@ -7,9 +8,8 @@ arch:
   - amd64
   - i386
 slug: notion_updater
-description: Updater for Notion that can be hosted within Home Assistant OS
+init: false
 startup: application
-boot: auto
 map:
   - share:rw
 options: {}
